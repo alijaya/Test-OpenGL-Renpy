@@ -1,8 +1,0 @@
-﻿I'm sorry, but errors were detected in your script. Please correct the
-errors listed below, and try again.
-
-
-File "game/ogl.rpy", line 212: is not terminated with a newline. (Check strings and parenthesis.)
-                print(width,height,list(glGetIntegerv(GL_VIEWPORT))
-
-Ren'Py Version: Ren'Py 6.99.12.4.2187
