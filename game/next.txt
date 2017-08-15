@@ -1,0 +1,11 @@
+renpy.display.draw => GLDraw
+- take self.environ
+- take self.rtt
+- TextureGrid
+- TextureCore
+- blit TextureGrid
+- FboRtt or CopyRtt
+
+gltexture
+- texture_grid_from_drawing( use rtt and environ )
+- use draw_func => use viewport(x, y, w, h), 
